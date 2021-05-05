@@ -16,6 +16,8 @@ public class Proyecto11 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String lolo = "Esta es una prueba de sonido (borrar despues)";
+        System.out.println(lolo);
     }
     
 }
