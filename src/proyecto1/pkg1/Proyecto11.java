@@ -18,6 +18,11 @@ public class Proyecto11 {
         // TODO code application logic here
         String lolo = "Esta es una prueba de sonido (borrar despues)";
         System.out.println(lolo);
+        if(100 = 100){
+            System.out.println("100");
+        } else {
+            System.out.println("no es 100");
+        }
     }
     
 }
