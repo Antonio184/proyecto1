@@ -10,14 +10,25 @@ public class Estudiante {
     private final String driver = "com.mysql.jbdc.Driver";
     private static Connection conexion;
     
-    //soy Carmen
+    //soy Adonay
  
-    public Conexion() {​​​​​​​
-        try{​​​​​​​
-               Class.forName(driver);
-               conexion=DriverManager.getConnection(servidor, usuario, clave);
-        }​​​​​​​ catch (ClassNotFoundException | SQLException e) {​​​​​​​
-            System.out.println("Conexion fallida: Error: " + e.getMessage());
-        }​​​​​​​
+     }
+    public Connection getConnection(){
+        return conexion;
+    }
+    public void guardarRegistros(String tabla, String camposTabla, String valoresCampos) {
+        Conexion conectar = new Conexion();
+        Connection cx = conectar.getConnection();
+        try{
+            String sqlQueryStmt = "INSERT INTO " + tabla + " (" + camposTabla + " ) VALUES (" + valoresCampos + " ): ";
+            Statement stmt;
+            stmt = cx.createStatement();
+            stmt.executeUpdate(sqlQueryStmt);
+            stmt.close();
+            cx.close();
+            System.out.println("Registro guardado correctamente:");
+        } catch(Exception e){
+            System.out.println(e.getMessage());
+        }
 
 }
