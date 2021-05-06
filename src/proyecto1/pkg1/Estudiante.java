@@ -9,4 +9,13 @@ public class Estudiante {
     private final String clave = "admin";
     private final String driver = "com.mysql.jbdc.Driver";
     private static Connection conexion;
+ 
+    public Conexion() {​​​​​​​
+        try{​​​​​​​
+               Class.forName(driver);
+               conexion=DriverManager.getConnection(servidor, usuario, clave);
+        }​​​​​​​ catch (ClassNotFoundException | SQLException e) {​​​​​​​
+            System.out.println("Conexion fallida: Error: " + e.getMessage());
+        }​​​​​​​
+
 }
