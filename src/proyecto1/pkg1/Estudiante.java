@@ -9,6 +9,8 @@ public class Estudiante {
     private final String clave = "admin";
     private final String driver = "com.mysql.jbdc.Driver";
     private static Connection conexion;
+    
+    //soy Carmen
  
     public Conexion() {​​​​​​​
         try{​​​​​​​
