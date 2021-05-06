@@ -8,18 +8,12 @@ package proyecto1.pkg1;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-/**
- *
- * @author Antonio
- */
+
 public class Proyecto11 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) 
-        // TODO code application logic here
-        //las pruebas de commit se eliminaron
+      
         throws SQLException {
         desplegarMenu();
     }
