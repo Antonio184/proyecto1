@@ -10,7 +10,7 @@ public class Estudiante {
     private final String driver = "com.mysql.jbdc.Driver";
     private static Connection conexion;
     
-    //soy Adonay
+    //soy Erick
  
      }
     public Connection getConnection(){
