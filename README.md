@@ -12,4 +12,4 @@ INTEGRANTES:
   Josue Adony Morales Torres. ROL: Product Owner
   Christy Alexandra Garcia Calderon. ROL: Front-End
   
-  DOCENTE: Manuel de Jesús Gámez López. ROl: Product Owner  
+  DOCENTE: Manuel de Jesús Gámez López. ROl: Product Owner
