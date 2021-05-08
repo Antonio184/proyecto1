@@ -36,6 +36,28 @@ public class Proyecto11 {
         System.out.println("Seleccionar opcion: ");
         menu = sc.next();
         
-    }
+    
 
+    
+    //Despliegue del menu
+        switch (menu) {
+            case "1":
+                //create create = new create();
+                break;
+            case "2":
+                //read read  = new Read();
+                break;
+            case "3":
+                //Update update = new update();
+                break;
+            case "4":
+                //delete delete = new delete();
+                break;
+            case "5":
+                System.exit(0);
+                break;
+            default:
+                System.out.println("Selecion Invalida");
+        }
+}
 }
