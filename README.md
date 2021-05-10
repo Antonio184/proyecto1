@@ -2,7 +2,7 @@
 
  NOMBRE DEL GRUPO: Fishing-Lab
  
- DESCRIPCION DEL PROYECTO: //
+ DESCRIPCION DEL PROYECTO: //Este proyecto consiste en la creación de un CRUD para poder registrar información del Estudiante los cuales son: nombre, apellido, carné y edad. Dicha información esta almacenada en una base de datos.
 
 INTEGRANTES:
   Carmen Isabel Mejia Ramirez. ROL: Front-End
